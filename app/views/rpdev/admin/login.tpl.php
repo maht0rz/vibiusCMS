@@ -27,7 +27,7 @@
                         <p>Username</p>
                         <input placeholder="Your Name" name="name" type="text" class="form-control">
                         <p style="margin-top:10px">Password</p>
-                        <input placeholder="**********" type="text" name="password" class="form-control">
+                        <input placeholder="**********" type="password" name="password" class="form-control">
                         <input type="hidden" name="token" value="{{$token}}">
                         <input type="submit" class="form-control loginbtn trans" value="Sign in">
                     </form>
